@@ -10,7 +10,7 @@ ___
 * [LinearLayoutExample (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/linearlayoutexample)
 * [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/duck)
 * [MyConstraintLayout](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/myconstraintlayout)
-* ~~[Starbuzz №1]()~~
+* [Starbuzz №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz)
 * ~~[BitsandPizzas №1]()~~
 * ~~[Workout №1]()~~
 * ~~[Workout №2]()~~
