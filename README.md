@@ -1,7 +1,7 @@
 ___
 # В процессе
 ___
-# Head First Android
+# Head First Android Development
 
 * [MyFirstApp](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/myfirstapp) 
 * [BeerAdviser](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/beeradviser) 
