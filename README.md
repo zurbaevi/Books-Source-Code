@@ -11,7 +11,7 @@ ___
 * [Duck (chapter 5)](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/duck)
 * [MyConstraintLayout](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/myconstraintlayout)
 * [Starbuzz №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz)
-* ~~[BitsandPizzas №1]()~~
+* [BitsandPizzas №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/bitsandpizzas)
 * ~~[Workout №1]()~~
 * ~~[Workout №2]()~~
 * ~~[Workout №3]()~~
