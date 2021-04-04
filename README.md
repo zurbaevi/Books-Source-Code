@@ -13,7 +13,7 @@ ___
 * [Starbuzz №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz)
 * [BitsandPizzas №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/bitsandpizzas)
 * [Workout №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/workout)
-* ~~[Workout №2]()~~
+* [Workout №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/workout2)
 * ~~[Workout №3]()~~
 * ~~[BitsandPizzas №2]()~~
 * ~~[BitsandPizzas №3]()~~
