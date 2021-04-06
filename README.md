@@ -15,7 +15,7 @@ ___
 * [Workout №1](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/workout)
 * [Workout №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/workout2)
 * [Workout №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/workout3)
-* ~~[BitsandPizzas №2]()~~
+* [BitsandPizzas №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/bitsandpizzas2)
 * ~~[BitsandPizzas №3]()~~
 * ~~[CatChat]()~~
 * ~~[Starbuzz №2]()~~
