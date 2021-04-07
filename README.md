@@ -19,7 +19,7 @@ ___
 * [BitsandPizzas №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/bitsandpizzas3)
 * [CatChat](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/catchat)
 * [Starbuzz №2](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz2)
-* ~~[Starbuzz №3]()~~
+* [Starbuzz №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz3)
 * ~~[Starbuzz №4]()~~
 * ~~[Joke]()~~
 * ~~[Odometer]()~~
