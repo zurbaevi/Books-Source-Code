@@ -23,7 +23,7 @@ ___
 * [Starbuzz №3](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz3)
 * [Starbuzz №4](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/starbuzz4)
 * [Joke](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/joke)
-* [Odometer](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/joke)
+* [Odometer](https://github.com/zurbaevi/Books-Source-Code/tree/main/HeadFirstAndroid/odometer)
 ____
 
 # Android Programming The Big Nerd Ranch Guide by Bill Phillips and Brian Hardy
