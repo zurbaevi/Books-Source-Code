@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz;
+package com.bignerdranch.android.challenge3;
 
 import android.os.Bundle;
 import android.util.Log;
@@ -27,6 +27,7 @@ public class QuizActivity extends AppCompatActivity {
     private Button mNextButton;
     private TextView mQuestionTextView;
     private int mCurrentIndex = 0;
+    private int mNumberOfCorrectAnswers = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,6 +45,7 @@ public class QuizActivity extends AppCompatActivity {
         mTrueButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                disableAnswerButtons();
                 checkAnswer(true);
             }
         });
@@ -52,6 +54,7 @@ public class QuizActivity extends AppCompatActivity {
         mFalseButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                disableAnswerButtons();
                 checkAnswer(false);
             }
         });
@@ -61,7 +64,17 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 mCurrentIndex = (mCurrentIndex + 1) % mQuestionBank.length;
-                updateQuestion();
+                if (mCurrentIndex != 0) {
+                    enableAnswerButtons();
+                    updateQuestion();
+
+                    if (mCurrentIndex == mQuestionBank.length - 1) {
+                        mNextButton.setText(R.string.check_score);
+                    }
+                } else {
+                    mNextButton.setEnabled(false);
+                    displayScore();
+                }
             }
         });
 
@@ -111,6 +124,7 @@ public class QuizActivity extends AppCompatActivity {
         int messageResId = 0;
 
         if (userPressedTrue == answerIsTrue) {
+            mNumberOfCorrectAnswers++;
             messageResId = R.string.correct_toast;
         } else {
             messageResId = R.string.incorrect_toast;
@@ -122,5 +136,20 @@ public class QuizActivity extends AppCompatActivity {
     private void updateQuestion() {
         int question = mQuestionBank[mCurrentIndex].getTextResId();
         mQuestionTextView.setText(question);
+    }
+
+    private void enableAnswerButtons() {
+        mTrueButton.setEnabled(true);
+        mFalseButton.setEnabled(true);
+    }
+
+    private void disableAnswerButtons() {
+        mTrueButton.setEnabled(false);
+        mFalseButton.setEnabled(false);
+    }
+
+    private void displayScore() {
+        int score = 100 * mNumberOfCorrectAnswers / mQuestionBank.length;
+        Toast.makeText(this, "Your score is " + score, Toast.LENGTH_SHORT).show();
     }
 }
