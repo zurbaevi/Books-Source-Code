@@ -48,6 +48,7 @@ ____
 * ~~[Упражнение 17]()~~
 * ~~[Упражнение 18]()~~
 * ~~[Упражнение 19]()~~
+___
 * [GeoQuiz (В процессе)](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/geoquiz)
 * ~~[CriminalIntent]()~~
 * ~~[DragAndDraw]()~~
