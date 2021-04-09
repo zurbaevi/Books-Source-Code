@@ -1,2 +1,4 @@
+include ':geoquiz'
+include ':challenge1'
 include ':app'
 rootProject.name = "Android Programming for professionals"
