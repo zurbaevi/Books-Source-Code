@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz;
+package com.bignerdranch.android.challenge5;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -11,7 +11,6 @@ import android.view.ViewAnimationUtils;
 import android.widget.Button;
 import android.widget.TextView;
 
-import androidx.annotation.RequiresApi;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class CheatActivity extends AppCompatActivity {
@@ -23,7 +22,9 @@ public class CheatActivity extends AppCompatActivity {
 
     private boolean mAnswerIsTrue;
     private TextView mAnswerTextView;
+    private TextView mApiLevelTextView;
     private Button mShowAnswerButton;
+    private int mCheatRemain = 3;
 
     public static Intent newIntent(Context packageContext, boolean isAnswerTrue) {
         Intent intent = new Intent(packageContext, CheatActivity.class);
@@ -39,6 +40,10 @@ public class CheatActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_cheat);
+
+        mApiLevelTextView = (TextView) findViewById(R.id.api_text_view);
+        String apiLevel = "API Level " + Build.VERSION.SDK_INT;
+        mApiLevelTextView.setText(apiLevel);
 
         mAnswerIsTrue = getIntent().getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false);
 
