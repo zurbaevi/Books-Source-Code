@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent;
+package com.bignerdranch.android.challenge10;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -14,7 +14,6 @@ import android.widget.EditText;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
-import java.util.List;
 import java.util.UUID;
 
 public class CrimeFragment extends Fragment {
