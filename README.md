@@ -36,7 +36,7 @@ ____
 * [Упражнение 6](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge6)
 * [Упражнение 8](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge8)
 * [Упражнение 9](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge9)
-* ~~[Упражнение 10]()~~
+* [Упражнение 10](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge10)
 * ~~[Упражнение 11]()~~
 * ~~[Упражнение 12]()~~
 * ~~[Упражнение 13]()~~
