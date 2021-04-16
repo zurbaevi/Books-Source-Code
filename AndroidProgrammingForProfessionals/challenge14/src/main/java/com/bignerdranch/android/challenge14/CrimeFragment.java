@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent;
+package com.bignerdranch.android.challenge14;
 
 import android.app.Activity;
 import android.content.Intent;
