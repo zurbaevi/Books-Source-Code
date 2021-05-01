@@ -42,12 +42,12 @@ ____
 * [Упражнение 13](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge13)
 * [Упражнение 14](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge14)
 * [Упражнение 15](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge15)
-* ~~[Упражнение 16]()~~
-* ~~[Упражнение 17]()~~
-* ~~[Упражнение 18]()~~
-* ~~[Упражнение 19]()~~
+* [Упражнение 16](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge16)
+* [Упражнение 17](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge17)
+* [Упражнение 18](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge18)
+* [Упражнение 19](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge19)
 * [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/geoquiz)
-* [CriminalIntent (В процессе)](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/criminalintent)
+* [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/criminalintent)
 * ~~[DragAndDraw]()~~
 * ~~[Locatr]()~~
 * ~~[NerdLauncher]()~~
