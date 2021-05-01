@@ -1,3 +1,4 @@
+include ':beatbox'
 include ':challenge19'
 include ':challenge18'
 include ':challenge17'
