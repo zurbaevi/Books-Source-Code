@@ -61,5 +61,11 @@ ____
 * [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter3)
 * [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter4)
 * [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter5)
-* ~~[Chapter 6]()~~
+* [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter7)
+* ~~[Chapter 7]()~~
+* ~~[Chapter 8]()~~
+* ~~[Chapter 9]()~~
+* ~~[Chapter 10]()~~
+* ~~[Chapter 11]()~~
+* ~~[Chapter 12]()~~
 ____
