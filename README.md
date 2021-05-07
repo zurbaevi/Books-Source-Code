@@ -39,7 +39,7 @@ ____
 * [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter5)
 * [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter6)
 * [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter7)
-* ~~[Chapter 8]()~~
+* [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter8)
 * ~~[Chapter 9]()~~
 * ~~[Chapter 10]()~~
 * ~~[Chapter 11]()~~
