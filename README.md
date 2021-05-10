@@ -41,11 +41,14 @@ ____
 * [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter7)
 * [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter8)
 * [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter9)
-* ~~[Chapter 10]()~~
-* ~~[Chapter 11]()~~
-* ~~[Chapter 12]()~~
-
-# Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл
+___
+# Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Kotlin
+> Познакомьтесь с возможностями программирования Android на языке Kotlin!
+Множество примеров приложений с четкими объяснениями ключевых концепций и API позволят легко разобраться в самых трудных задачах. Эта книга посвящена прикладным методам разработки приложений на Kotlin, и подойдет для всех версий Android от 5.0 (Lollipop) до 8.1 (Oreo) и выше.
+* [Ссылка на книгу](https://www.ozon.ru/product/android-programmirovanie-dlya-professionalov-fillips-bill-marsikano-kristin-211424739/?asb=cdBs19wZ3UsRsF0X2WJODj11lPeeWQ5x3pboV%252BzsY%252Bk%253D&asb2=cdBs19wZ3UsRsF0X2WJODj11lPeeWQ5x3pboV-zsY-k&keywords=Android.+%D0%9F%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5+%D0%B4%D0%BB%D1%8F+%D0%BF%D1%80%D0%BE%D1%84%D0%B5%D1%81%D1%81%D0%B8%D0%BE%D0%BD%D0%B0%D0%BB%D0%BE%D0%B2)
+#### Таблица содержания
+___
+# Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Java
 > Когда вы приступаете к разработке приложений для Android - вы как будто оказываетесь в чужой стране: даже зная местный язык, на первых порах всё равно чувствуете себя не комфортно. Такое впечатление, что все окружающие знают что-то такое, чего вы никак не понимаете. И даже то, что вам уже известно, в новом контексте оказывается попросту неправильным.
 * [Ссылка на книгу](https://www.ozon.ru/product/android-programmirovanie-dlya-professionalov-pdf-epub-136792911/?asb=tGn4%252FQ9N1x3CFHUQwvIY9Nt30AW7B06X7hjNnTEaWxg%253D&asb2=tGn4_Q9N1x3CFHUQwvIY9Nt30AW7B06X7hjNnTEaWxg#section-characteristics--offset-80)
 #### Таблица содержания
@@ -68,9 +71,4 @@ ____
 * [Упражнение 19](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/challenge19)
 * [GeoQuiz](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/geoquiz)
 * [CriminalIntent](https://github.com/zurbaevi/books-source-code/tree/main/AndroidProgrammingForProfessionals/criminalintent)
-* ~~[DragAndDraw]()~~
-* ~~[Locatr]()~~
-* ~~[NerdLauncher]()~~
-* ~~[PhotoGallery]()~~
-* ~~[Sunset]()~~
 ____
