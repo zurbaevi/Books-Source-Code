@@ -1,2 +1,4 @@
+include ':challenge1'
+include ':geoquiz'
 include ':app'
 rootProject.name = "Android. Programming for professionals. Kotlin"
