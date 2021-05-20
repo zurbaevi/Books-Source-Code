@@ -1,4 +1,4 @@
-package com.bignerdranch.android.geoquiz
+package com.bignerdranch.android.challenge4
 
 import android.util.Log
 import androidx.lifecycle.ViewModel
@@ -7,8 +7,6 @@ class QuizViewModel : ViewModel() {
     private val TAG = "QuizViewModel"
 
     var currentIndex = 0
-    var isCheater = false
-
     private val questionBank = listOf(
         Question(R.string.question_australia, true),
         Question(R.string.question_oceans, true),
@@ -17,6 +15,8 @@ class QuizViewModel : ViewModel() {
         Question(R.string.question_americas, true),
         Question(R.string.question_asia, true),
     )
+
+    var isCheater: BooleanArray = BooleanArray(questionBank.size)
 
     val currentQuestionAnswer: Boolean
         get() = questionBank[currentIndex].answer
