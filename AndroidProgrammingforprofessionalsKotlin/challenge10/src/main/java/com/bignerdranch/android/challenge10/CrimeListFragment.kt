@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.bignerdranch.android.challenge10
 
 import android.os.Bundle
 import android.util.Log
@@ -12,7 +12,6 @@ import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import java.text.DateFormat
 import java.text.SimpleDateFormat
 import java.util.*
 
@@ -66,7 +65,7 @@ class CrimeListFragment : Fragment() {
         fun bind(crime: Crime) {
             this.crime = crime
             titleTextView.text = this.crime.title
-            dateTextView.text = this.crime.date.toString()
+            dateTextView.text = getFormattedData(this.crime.date)
             solvedImageView.visibility = if (crime.isSolved) {
                 View.VISIBLE
             } else {
@@ -77,6 +76,9 @@ class CrimeListFragment : Fragment() {
         override fun onClick(v: View?) {
             Toast.makeText(context, "${crime.title} pressed!", Toast.LENGTH_SHORT).show()
         }
+
+        fun getFormattedData(date: Date): String =
+            SimpleDateFormat("EEEE, MMM d, yyyy", Locale.US).format(date)
     }
 
     private inner class CrimeAdapter(var crimes: List<Crime>) :
