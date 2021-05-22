@@ -40,13 +40,11 @@ ____
 * [Chapter 11](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter11)
 * [Chapter 12](https://github.com/zurbaevi/books-source-code/tree/main/HeadFirstKotlin/src/main/kotlin/chapter12)
 ___
-# Kotlin в действии | Жемеров Дмитрий, Исакова Светлана
-> Язык Kotlin предлагает выразительный синтаксис, мощную и понятную систему типов, великолепную поддержку и бесшовную совместимость с существующим кодом на Java, богатый выбор библиотек и фреймворков. Kotlin может компилироваться в байт-код Java, поэтому его можно использовать везде, где используется Java, включая Android. А благодаря эффективному компилятору и маленькой стандартной библиотеке, Kotlin практически не привносит накладных расходов.
-* [Ссылка на книгу](https://www.ozon.ru/product/kotlin-v-deystvii-142702695/)
+# Kotlin. Программирование для профессионалов
+> Kotlin — язык программирования со статической типизацией, который взяла на вооружение Google в ОС Android. Книга Джоша Скина и Дэвида Гринхола основана на популярном курсе Kotlin Essentials от Big Nerd Ranch. Яркие и полезные примеры, четкие объяснения ключевых концепций и основополагающих API не только знакомят с языком Kotlin, но и учат эффективно использовать его возможности, а так же позволяют освоить среду разработки IntelliJ IDEA от JetBrains.
+* [Ссылка на книгу](https://www.ozon.ru/product/kotlin-programmirovanie-dlya-professionalov-155266078/)
 #### Таблица содержания
- * [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter1)
- * [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter2)
- * [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/KotlinInAction/src/chapter3)
+ * [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter1)
 ___
 # Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Kotlin
 > Познакомьтесь с возможностями программирования Android на языке Kotlin! Множество примеров приложений с четкими объяснениями ключевых концепций и API позволят легко разобраться в самых трудных задачах. Эта книга посвящена прикладным методам разработки приложений на Kotlin, и подойдет для всех версий Android от 5.0 (Lollipop) до 8.1 (Oreo) и выше.
