@@ -45,6 +45,11 @@ ___
 * [Ссылка на книгу](https://www.ozon.ru/product/kotlin-programmirovanie-dlya-professionalov-155266078/)
 #### Таблица содержания
  * [Chapter 1](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter1)
+ * [Chapter 2](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter2)
+ * [Chapter 3](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter3)
+ * [Chapter 4](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter4)
+ * [Chapter 5](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter5)
+ * [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/KotlinProgrammingForProfessionals/src/main/kotlin/chapter6)
 ___
 # Android. Программирование для профессионалов | Марсикано Кристин, Филлипс Билл | Kotlin
 > Познакомьтесь с возможностями программирования Android на языке Kotlin! Множество примеров приложений с четкими объяснениями ключевых концепций и API позволят легко разобраться в самых трудных задачах. Эта книга посвящена прикладным методам разработки приложений на Kotlin, и подойдет для всех версий Android от 5.0 (Lollipop) до 8.1 (Oreo) и выше.
