@@ -7,7 +7,9 @@ var playerGold = 10
 var playerSilver = 10
 
 val patronList = mutableListOf("Eli", "Mordoc", "Sophie")
-val menuList = File("./tavern-menu-items.txt")
+val lastName = listOf("Ironfoot", "Fernsworth", "Baggins")
+val uniquePatrons = mutableSetOf<String>()
+val menuList = File("data/tavern-menu-items.txt")
     .readText().split("\n")
 
 
@@ -26,13 +28,18 @@ fun main(args: Array<String>) {
 
 //    placeOrder("shandy,Dragon's Breath,5.91")
 
-    patronList.forEachIndexed { index, patron ->
-        println("Good evening, $patron - you're #${index + 1} in line.")
-        placeOrder(patron, menuList.shuffled().first())
+    (0..9).forEach {
+        val first = patronList.shuffled().first()
+        val last = lastName.shuffled().first()
+        val name = "$first $last"
+        uniquePatrons += name
     }
+    println(uniquePatrons)
 
-    menuList.forEachIndexed { index, data ->
-        println("$index : $data")
+    var orderCount = 0
+    while (orderCount <= 9) {
+        placeOrder(uniquePatrons.shuffled().first(), menuList.shuffled().first())
+        orderCount++
     }
 }
 
@@ -43,7 +50,7 @@ fun performPurchase(price: Double) {
     println("Purchasing item for $price")
 
     val remainingBalance = totalPurse - price
-    println("Remaining balance: ${"%.2".format(remainingBalance)}")
+    println("Remaining balance: ${"%.2f".format(remainingBalance)}")
 
     val remainingGold = remainingBalance.toInt()
     val remainingSilver = (remainingBalance % 1 * 100).roundToInt()
