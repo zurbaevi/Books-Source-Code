@@ -69,8 +69,10 @@ ___
 * [Chapter 6](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter6)
 * [Chapter 7](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter7)
 * [Chapter 8](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter8)
-* [Chapter 9](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter9)
 * [Chapter 10](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter10)
+* [Chapter 11](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter11)
+* [Chapter 12](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter12)
+* [Chapter 13](https://github.com/zurbaevi/books-source-code/tree/main/kotlin/kotlin-programming-for-professionals/chapter13)
 
 ___
 
