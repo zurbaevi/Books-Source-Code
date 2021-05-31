@@ -25,18 +25,10 @@ class CheatActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_cheat)
 
-        if (savedInstanceState != null) {
-            isCheatActivated = savedInstanceState.getBoolean("isCheatActivated")
-        }
-
         answerIsTrue = intent.getBooleanExtra(EXTRA_ANSWER_IS_TRUE, false)
 
         answerTextView = findViewById(R.id.answer_text_view)
         showAnswerButton = findViewById(R.id.show_answer_button)
-
-        if (isCheatActivated) {
-            setAnswerShownResult(true)
-        }
 
         showAnswerButton.setOnClickListener {
             val answerText = when {
@@ -51,6 +43,13 @@ class CheatActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putBoolean("isCheatActivated", isCheatActivated)
+        outState.putString("answerTextView", answerTextView.text.toString())
+    }
+
+    override fun onRestoreInstanceState(savedInstanceState: Bundle) {
+        super.onRestoreInstanceState(savedInstanceState)
+        if (savedInstanceState.getBoolean("isCheatActivated")) setAnswerShownResult(true)
+        answerTextView.text = savedInstanceState.getString("answerTextView")
     }
 
     private fun setAnswerShownResult(isAnswerShown: Boolean) {

@@ -3,8 +3,6 @@ package com.bignerdranch.android.challenge6
 import android.util.Log
 import androidx.lifecycle.ViewModel
 
-private const val TAG = "QuizViewModel"
-
 class QuizViewModel : ViewModel() {
 
     var currentIndex = 0
@@ -27,10 +25,5 @@ class QuizViewModel : ViewModel() {
 
     fun moveToNext() {
         currentIndex = (currentIndex + 1) % questionBank.size
-    }
-
-    override fun onCleared() {
-        super.onCleared()
-        Log.d(TAG, "ViewModel instance about to be destroyed")
     }
 }
