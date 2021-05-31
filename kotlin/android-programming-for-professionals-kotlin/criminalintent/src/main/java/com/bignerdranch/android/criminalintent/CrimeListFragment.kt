@@ -57,7 +57,8 @@ class CrimeListFragment : Fragment() {
         crimeRecyclerView.adapter = adapter
     }
 
-    private inner class CrimeHolder(view: View) : RecyclerView.ViewHolder(view), View.OnClickListener {
+    private inner class CrimeHolder(view: View) : RecyclerView.ViewHolder(view),
+        View.OnClickListener {
 
         private lateinit var crime: Crime
 
@@ -86,8 +87,8 @@ class CrimeListFragment : Fragment() {
         }
     }
 
-    private inner class CrimeAdapter(var crimes: List<Crime>)
-        : RecyclerView.Adapter<CrimeHolder>() {
+    private inner class CrimeAdapter(var crimes: List<Crime>) :
+        RecyclerView.Adapter<CrimeHolder>() {
 
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int)
                 : CrimeHolder {
