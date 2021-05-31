@@ -9,13 +9,12 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
-import com.bignerdranch.android.challenge6.CheatActivity.Companion.EXTRA_ANSWER_SHOWN
+
+private const val TAG = "MainActivity"
+private const val KEY_INDEX = "index"
+private const val REQUEST_CODE_CHEAT = 0
 
 class MainActivity : AppCompatActivity() {
-
-    private val TAG = "MainActivity"
-    private val KEY_INDEX = "index"
-    private val REQUEST_CODE_CHEAT = 0
 
     private lateinit var trueButton: Button;
     private lateinit var falseButton: Button
