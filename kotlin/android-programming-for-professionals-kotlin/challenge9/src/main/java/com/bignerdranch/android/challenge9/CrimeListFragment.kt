@@ -5,7 +5,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
 import androidx.fragment.app.Fragment
@@ -73,11 +72,7 @@ class CrimeListFragment : Fragment() {
     private inner class CrimeAdapter(var crimes: List<Crime>) :
         RecyclerView.Adapter<CrimeHolder>() {
         override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): CrimeHolder {
-            return if (viewType == R.layout.list_item_crime) {
-                CrimeHolder(layoutInflater.inflate(R.layout.list_item_crime, parent, false))
-            } else {
-                CrimeHolder(layoutInflater.inflate(R.layout.serious_list_item_crime, parent, false))
-            }
+            return CrimeHolder(layoutInflater.inflate(viewType, parent, false))
         }
 
         override fun onBindViewHolder(holder: CrimeHolder, position: Int) {
@@ -88,10 +83,9 @@ class CrimeListFragment : Fragment() {
         override fun getItemCount() = crimes.size
 
         override fun getItemViewType(position: Int): Int {
-            return if (crimes[position].requiresPolice) {
-                R.layout.serious_list_item_crime
-            } else {
-                R.layout.list_item_crime
+            return when {
+                crimes[position].requiresPolice -> R.layout.serious_list_item_crime
+                else -> R.layout.list_item_crime
             }
         }
     }

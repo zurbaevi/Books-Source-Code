@@ -2,6 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark"
     android:orientation="vertical"
     android:padding="8dp">
 
@@ -16,11 +17,5 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Crime Date" />
-
-    <Button
-        android:id="@+id/sos_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="SOS" />
 
 </LinearLayout>
