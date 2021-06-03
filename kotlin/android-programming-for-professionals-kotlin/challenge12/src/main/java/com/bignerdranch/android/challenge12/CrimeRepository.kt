@@ -1,9 +1,9 @@
-package com.bignerdranch.android.criminalintent
+package com.bignerdranch.android.challenge12
 
 import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.room.Room
-import com.bignerdranch.android.criminalintent.database.CrimeDatabase
+import com.bignerdranch.android.challenge12.database.CrimeDatabase
 import java.util.*
 import java.util.concurrent.Executors
 

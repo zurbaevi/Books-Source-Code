@@ -1,11 +1,11 @@
-package com.bignerdranch.android.criminalintent.database
+package com.bignerdranch.android.challenge12.database
 
 import androidx.lifecycle.LiveData
 import androidx.room.Dao
 import androidx.room.Insert
 import androidx.room.Query
 import androidx.room.Update
-import com.bignerdranch.android.criminalintent.Crime
+import com.bignerdranch.android.challenge12.Crime
 import java.util.*
 
 @Dao

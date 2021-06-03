@@ -1,4 +1,4 @@
-package com.bignerdranch.android.criminalintent
+package com.bignerdranch.android.challenge12
 
 import android.content.Context
 import android.os.Bundle
@@ -12,6 +12,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
+import androidx.recyclerview.widget.DiffUtil
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -72,6 +73,7 @@ class CrimeListFragment : Fragment() {
     private fun updateUI(crimes: List<Crime>) {
         adapter = CrimeAdapter(crimes)
         crimeRecyclerView.adapter = adapter
+        adapter!!.setData(crimes)
     }
 
     private inner class CrimeHolder(view: View) : RecyclerView.ViewHolder(view),
@@ -118,6 +120,13 @@ class CrimeListFragment : Fragment() {
         }
 
         override fun getItemCount() = crimes.size
+
+        fun setData(newCrimeList : List<Crime>){
+            val diffUtil = MyDiffUtil(crimes, newCrimeList)
+            val diffResult = DiffUtil.calculateDiff(diffUtil)
+            crimes = newCrimeList
+            diffResult.dispatchUpdatesTo(this)
+        }
     }
 
     companion object {
