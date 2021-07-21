@@ -12,7 +12,6 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProviders
-import com.bignerdranch.android.challenge7.CheatActivity.Companion.EXTRA_ANSWER_SHOWN
 
 private const val TAG = "MainActivity"
 private const val KEY_INDEX = "index"

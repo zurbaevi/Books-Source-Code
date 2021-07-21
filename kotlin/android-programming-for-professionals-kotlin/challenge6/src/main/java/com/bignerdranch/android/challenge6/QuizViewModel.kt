@@ -1,6 +1,5 @@
 package com.bignerdranch.android.challenge6
 
-import android.util.Log
 import androidx.lifecycle.ViewModel
 
 class QuizViewModel : ViewModel() {
